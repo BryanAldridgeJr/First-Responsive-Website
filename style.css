@@ -1,0 +1,89 @@
+
+
+
+.main {
+    border: 1px solid black;
+    justify-content: center;
+    padding-bottom: 25px ;
+    padding-top: 20px;
+    
+    
+}
+
+
+.header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+p,
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.container {
+    border: 5px solid white;
+}
+
+
+@media (max-width: 576px) {
+    /*.container {*/
+        .main{
+            background:
+            radial-gradient(#53a2c6 49%,#0000 50%) calc(32px/-2) calc(32px/2),
+            repeating-conic-gradient(from 45deg,#d9346e 0 25%,#0000 0 50%)
+            calc(32px/2) calc(32px/2),
+            radial-gradient(#53a2c6 49%,#0000 50%),radial-gradient(#53a2c6 49%,#0000 50%) 32px 32px #80cfab;
+            background-size: calc(2*32px) calc(2*32px);
+            text-decoration: underline;
+            display: flex;
+            flex-wrap: wrap;
+            color: black ;
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+        .header{
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            color: white;
+            text-decoration:underline;
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+
+    
+}
+
+@media (min-width: 577px) {
+    
+        .main{background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+            background-color:#282828;
+            background-size:16px 16px;
+            display: flex;
+            flex-wrap: nowrap;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+       }
+       .header{
+           background-color:silver;
+           background-image:
+           radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+           radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+           radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+           radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+           radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+           background-size: 100px 50px;
+           text-decoration: underline;
+           font-family: 'Courier New', Courier, monospace;
+
+
+       }
+}
+
