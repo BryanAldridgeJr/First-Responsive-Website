@@ -3,9 +3,9 @@
 
 .main {
     border: 1px solid black;
-    justify-content: center;
     padding-bottom: 25px ;
     padding-top: 20px;
+    
     
     
 }
@@ -43,8 +43,16 @@ h2 {
             flex-wrap: wrap;
             color: black ;
             font-family: Arial, Helvetica, sans-serif;
-            
-
+            place-content: center;
+        }
+        .box11 {
+            background-color: white;
+        }
+        .box12 {
+            background-color: black;
+        }
+        .box13 {
+            background-color: grey;
         }
         .header{
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -54,6 +62,13 @@ h2 {
         }
 
     
+}
+.box12,
+.box13,
+.box11 {
+    border: 2px solid white;
+    display: grid;
+    height: 20%;
 }
 
 @media (min-width: 577px) {
@@ -70,6 +85,16 @@ h2 {
             color: white;
             font-family: 'Courier New', Courier, monospace;
             text-decoration: underline;
+            
+       }
+       .box11 {
+        background-color: #23a6d5;
+       }
+       .box12 {
+        background-color: greenyellow;
+       }
+       .box13 {
+        background-color: orange;
        }
        .header{
            background-color:silver;
@@ -87,3 +112,8 @@ h2 {
        }
 }
 
+.box1,
+.box2,
+.box3 { 
+    padding: 20px
+}
